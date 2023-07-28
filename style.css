@@ -1,0 +1,98 @@
+body {
+    font-family: Roboto, Helvetica, sans-serif ;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header-hero {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 35px 100px 70px;
+    gap: 70px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.hero {
+    display: flex;
+    gap: 45px;
+}
+
+.hero-container {
+    flex: 1;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero img {
+    flex: 1;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero button {
+    background-color: #3882F6;
+}
+
+.information {
+    padding: 35px 100px 70px;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.information-items {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+
+.item {
+    width: 150px;
+    text-align: center;
+}
+
+.information-items img {
+    border: 3px solid #3882F6;
+}
+
+.information-items p {
+    margin: 0;
+}
